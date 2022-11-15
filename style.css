@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+.banner-text h1 {
+    font-size: 200px;
+    line-height: 10px;
+    font-family: 'Tangerine', serif;
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-button {
+    margin: 70px auto 0;
+}
+
+.banner-button a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: .5px solid white;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.banner-button a span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-button a:hover span {
+    width: 100%;
+}
+
+.banner-button a:hover {
+    color: black;
+}
+
+.list {
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    bottom: 620px;
+}
+
+.list ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 6px 13px;
+    transition: 1s;
+}
+
+.list ul li a:hover {
+    background: #009688;
+    border-radius: 2px;
+}
+
+#feature {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.fea {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.fea p {
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.fea h1 {
+    font-size: 50px;
+}
+.box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.features {
+    flex-basis: 50%;
+}
+.fea-img {
+    flex-basis: 50%;
+    margin: auto;
+}
+.fea-img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px; 
+    position: relative;
+    bottom: 550px;
+    left: 300px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #009688;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightgreen;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }
